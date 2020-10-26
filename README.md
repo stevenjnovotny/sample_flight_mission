@@ -8,6 +8,8 @@ The required task is to command the drone to fly a 10 meter box at a 3 meter alt
 
 Autonomous control was done using an event-driven state machine. Each callback checks against transition criteria dependent on the current state. If the transition criteria are met, it will transition to the next state and pass along any required commands to the drone.
 
+![](image.png)
+
 ## Downloading the Simulator
 The demo uses the Udacity simulator which can be downloaded [from this repository](https://github.com/udacity/FCND-Simulator-Releases/releases).
 
