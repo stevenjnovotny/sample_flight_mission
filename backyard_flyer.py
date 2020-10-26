@@ -95,10 +95,10 @@ class BackyardFlyer(Drone):
         """
         1. Return waypoints to fly a box
         """
-        self.all_waypoints.append(np.array([0.0, 10.0, 10.0]))
-        self.all_waypoints.append(np.array([10.0, 10.0, 10.0]))
-        self.all_waypoints.append(np.array([10.0, 0.0, 10.0]))
-        self.all_waypoints.append(np.array([0.0, 0.0, 10.0]))  
+        self.all_waypoints.append(np.array([0.0, 10.0, 3.0]))
+        self.all_waypoints.append(np.array([10.0, 10.0, 3.0]))
+        self.all_waypoints.append(np.array([10.0, 0.0, 3.0]))
+        self.all_waypoints.append(np.array([0.0, 0.0, 3.0]))  
         #self.all_waypoints.reverse()      
 
 
